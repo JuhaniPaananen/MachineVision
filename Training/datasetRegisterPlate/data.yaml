@@ -1,0 +1,18 @@
+#train: C:/RegonizeME/RegonizeME/ultralytics/datasetVechicle/images/train/
+#val: C:/RegonizeME/RegonizeME/ultralytics/datasetVechicle/labels/train/
+train: C:/RegonizeME/RegonizeME/ultralytics/datasetRegisterPlate/images/train/
+val: C:/RegonizeME/RegonizeME/ultralytics/datasetRegisterPlate/labels/train/
+nc: 1
+names: ["Rekisteri Kilpi"]
+
+
+#car
+#threewheel
+#bus
+#truck
+#motorbike
+#van
+
+#python train.py --img 640 --batch 16 --epochs 50 --data ../dataset/data.yaml --weights yolov5s.pt
+
+# ultralytics/models/yolo/detect/train.py
